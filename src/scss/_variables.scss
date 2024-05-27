@@ -1,0 +1,17 @@
+/* SCSS HEX */
+$arylide-yellow: #e3c567ff;
+$satin-sheen-gold: #c8963eff;
+$earth-yellow: #d9ae61ff;
+$chili-red: #d1462fff;
+$rich-black: #0d0c1dff;
+
+$theme-colors: (
+  "primary":    $arylide-yellow,
+  "secondary":  $chili-red,
+  "success":    $earth-yellow,
+  "info":       $rich-black,
+  "warning":    $chili-red,
+  "danger":     $chili-red,
+  "light":      $arylide-yellow,
+  "dark":       $satin-sheen-gold
+);

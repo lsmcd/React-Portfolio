@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <body className="bg-dark">
+        <Outlet />
+      </body>
     </>
   )
 }

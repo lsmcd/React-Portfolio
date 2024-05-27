@@ -40,7 +40,7 @@ export default function ContactPage() {
                 <input onMouseOut={messageHandler} type="text" className="form-control" id="message"/>
                 <label htmlFor="message" className="form-label">{messageRequired ? "Message (required)" : "Message"}</label>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-secondary">Submit</button>
         </form>
     </div>
 }
