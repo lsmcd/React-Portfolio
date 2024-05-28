@@ -16,7 +16,7 @@ export default function PortfolioPage() {
         }
     });
 
-    return <div id="portfoliopage">
+    return <div className="text-light" id="portfoliopage">
         <h1>PortfolioPage</h1>
         <div className="d-lg-inline-flex flex-row justify-content-center">
 

@@ -1,5 +1,5 @@
 export default function Navbar() {
-    return <footer className="col-12 position-sticky bottom-0 start-0 bg-light d-flex justify-content-evenly">
+    return <footer className="col-12 position-sticky bottom-0 bg-secondary d-flex justify-content-evenly">
         <a href="https://github.com/lsmcd">
             <button className="btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 20 20">

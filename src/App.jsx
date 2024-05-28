@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <body className="bg-dark">
+      <main className="bg-dark">
         <Outlet />
-      </body>
+      </main>
       <Footer />
     </>
   )

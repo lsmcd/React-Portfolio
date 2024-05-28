@@ -1,2 +1,17 @@
 @import "./variables";
 @import "~bootstrap/scss/bootstrap.scss";
+
+body {
+    height: 100vh;
+    background-color: $dark-slate-gray;
+}
+main {
+    min-height: 85.9vh;
+}
+
+@media (min-width: 992px) {
+    header nav {
+        display: none;
+        color: #ffffff;
+    }
+}
